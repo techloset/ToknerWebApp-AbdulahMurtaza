@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import logo from "../../assets/img/logo-colored-sign-black-text.svg";
 import design from "../../assets/img/vector.svg";
+import { Link } from "react-router-dom";
 
 export default function FooterBottom() {
   return (
@@ -17,19 +18,19 @@ export default function FooterBottom() {
         <div className=" md:block hidden px-4">
           <ul className="list-none flex uppercase gap-16 font-bold text-white justify-center">
             <li>
-              <a href="">Our team</a>
+              <Link to="/ourTeam">Our team</Link>
             </li>
             <span className="opacity-60">/</span>
             <li>
-              <a href="">tokens</a>
+              <Link to="/takenomics">tokens</Link>
             </li>
             <span className="opacity-60">/</span>
             <li>
-              <a href="">connect wallet</a>
+              <Link to="/">connect wallet</Link>
             </li>
             <span className="opacity-60">/</span>
             <li>
-              <a href="">lightpaper</a>
+              <Link to="/">lightpaper</Link>
             </li>
           </ul>
         </div>

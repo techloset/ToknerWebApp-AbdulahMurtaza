@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../../assets/img/logo-colored-sign-black-text.svg";
 
 import { Collapse, Dropdown, initTE } from "tw-elements";
@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 initTE({ Collapse, Dropdown });
 
 export default function Navbar() {
+  useEffect(() => {
+    initTE({ Collapse, Dropdown });
+  }, []);
+
   return (
     <>
       {/* <!-- Main navigation container --> */}
