@@ -11,28 +11,27 @@
   padding: 0;
 }
 
-.item2Img{
-  background: url(./assets/img/woman-holding-iphone-xs-in-hand-mockup-1.png), #171b29  no-repeat;
-  /* width: 880px; */
-    height: 928px;
-    /* flex-shrink: 0; */
-}
-.testingImage{
-  background: url(./assets/img/group-37.png);
-  /* width: 880px; */
+
+.preSaleBgImage{
+  background: url(./assets/img/cardBg.png);
   background-position:  center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: scroll;
 }
 
-.twoBgImg{
-  background: url(./assets/img/ourTeam/mask-group.png),  no-repeat;
+@media (max-width: 768px) {
+.preSaleBgImage {
+    background: url(./assets/img/mobileCardsBg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 
-#mainFooter{
-  background: url(./assets/img/Ресурс\ 1@4x\ 2.png);
-  /* width: 880px; */
+
+footer{
+  background: url(./assets/img/footerBg.png);
   background-position:  center;
   background-repeat: no-repeat;
   background-size: cover;

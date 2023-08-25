@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import logo from "../../assets/img/logo-colored-sign-black-text.svg";
+import logo from "../../assets/img/logo.svg";
 
 import { Collapse, Dropdown, initTE } from "tw-elements";
 import { Link } from "react-router-dom";
@@ -20,7 +20,7 @@ export default function Navbar() {
         <div class="flex w-full flex-wrap items-center justify-between px-3">
           {/* <!-- Logo --> */}
           <Link
-            class="mb-4 ml-2 mr-5 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mb-0 lg:mt-0"
+            class="mb-4 ml-2 mr-5 mt-3 flex items-center lg:mb-0 lg:mt-0"
             to="/"
           >
             <img src={logo} alt="TE Logo" loading="lazy" />
@@ -33,57 +33,41 @@ export default function Navbar() {
           >
             {/* <!-- Left navigation links --> */}
             <ul
-              class="list-style-none mr-auto flex flex-col pl-0 lg:flex-row"
+              class="list-style-none mr-auto flex flex-col pl-0 mt-2 lg:flex-row text-white font-bold text-sm gap-4"
               data-te-navbar-nav-ref
             >
+              {/* <!-- Our team link --> */}
               <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
-                {/* <!-- Our team link --> */}
-                <Link
-                  class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
-                  to="/ourTeam"
-                  data-te-nav-link-ref
-                >
+                <Link class="nav-link" to="/" data-te-nav-link-ref>
                   Our team
                 </Link>
               </li>
               {/* <!-- Tokens link --> */}
               <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
-                <Link
-                  class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-                  to="/takenomics"
-                  data-te-nav-link-ref
-                >
+                <Link class="nav-link" to="/" data-te-nav-link-ref>
                   Tokens
                 </Link>
               </li>
               {/* <!-- Connect Wallet link --> */}
               <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
-                <Link
-                  class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-                  to="/"
-                  data-te-nav-link-ref
-                >
+                <Link class="nav-link" to="/" data-te-nav-link-ref>
                   Connect Wallet
                 </Link>
               </li>
               {/* <!--Lightpaper link --> */}
               <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
-                <Link
-                  class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-                  to="/"
-                  data-te-nav-link-ref
-                >
+                <Link class="nav-link" to="/" data-te-nav-link-ref>
                   Lightpaper
                 </Link>
               </li>
             </ul>
           </div>
           {/* <!-- Right elements --> */}
-          <div class="hidden relative lg:flex items-center">
-            <div className="mx-[10px] py-2 px-3 text-white hover:text-gray-600 font-bold transition ease-linear delay-200">
+          <div class="hidden relative lg:flex items-center text-white font-bold text-sm">
+            <div className="mx-[10px] py-2 px-3  hover:text-gray-600 transition ease-linear delay-200">
               <Link>Sign in</Link>
             </div>
-            <div className="mx-[10px] border-2 border-[#22a75d] text-white py-2 px-4 rounded-3xl hover:bg-[#22a75d] transition ease-in-out delay-200">
+            <div className="mx-[10px] border-2 border-[#22a75d] py-2 px-4 rounded-3xl hover:bg-[#22a75d] transition ease-in-out delay-200">
               <Link>Sign up</Link>
             </div>
           </div>

@@ -5,7 +5,7 @@ import Section2 from "./Section2";
 import Section3 from "./Section3";
 import Section4 from "./Section4";
 import Header from "./Header";
-import Footer from "../../components/Footer/Footer";
+import Footer from "../../components/footer/Footer";
 
 export default function index() {
   return (
@@ -13,7 +13,6 @@ export default function index() {
       <Header />
       <Hero />
       <Section1 />
-      {/* <Test2 /> */}
       <Section2 />
       <Section3 />
       <Section4 />

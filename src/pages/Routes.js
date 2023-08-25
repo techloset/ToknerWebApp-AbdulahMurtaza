@@ -1,9 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Home from "./Home";
-import Takenomics from "./Takenomics";
-import OurTeam from "./OurTeam";
+import Home from "./home";
 
 export default function CustomRoutes() {
   return (
@@ -11,8 +9,6 @@ export default function CustomRoutes() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="takenomics" element={<Takenomics />} />
-          <Route path="ourTeam" element={<OurTeam />} />
         </Routes>
       </BrowserRouter>
     </>
