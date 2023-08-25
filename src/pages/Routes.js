@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Home from "./home";
+import Home from "./Home";
 
 export default function CustomRoutes() {
   return (
