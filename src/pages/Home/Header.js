@@ -17,10 +17,10 @@ export default function Header() {
             <div className="mt-6 bg-gradient-to-t from-[#2B3087] to-[#00B4EC] bg-clip-text text-transparent font-500 text-sm 2xl:text-base">
               At Tokners Are
             </div>
-            <div className="mt-6 text-[#fff] font-700 leading-[54px] text-4xl 2xl:text-5xl">
+            <div className="mt-4 text-[#fff] font-700 leading-[54px] text-4xl 2xl:text-5xl">
               Reimagining social media through the power of the blockchain.
             </div>
-            <div className="mt-6 opacity-60 text-[#DDE2FF] text-sm 2xl:text-base font-400 leading-6 pr-8 md:pr-2 2xl:pr-20">
+            <div className="mt-4 opacity-60 text-[#DDE2FF] text-sm 2xl:text-base font-400 leading-6 pr-8 md:pr-2 2xl:pr-20">
               We are creating social media 3.0 with influencers, celebrities and
               creators being able to launch their own digital currency by simply
               creating a profile with media content posted as Non-fungible
