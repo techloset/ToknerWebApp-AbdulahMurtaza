@@ -1,12 +1,13 @@
 import React from "react";
-import Navbar from "../../components/navbar/Navbar";
-import mainImg from "../../assets/img/img.png";
-import bg from "../../assets/img/bg.png";
+import Navbar from "../../components/Navbar/Navbar";
 
 export default function Header() {
   return (
     <header
-      style={{ background: `url(${bg}) no-repeat`, backgroundSize: "cover" }}
+      style={{
+        background: `url(https://res.cloudinary.com/dtqdflngh/image/upload/v1693157622/bg_trnrfn.png) no-repeat`,
+        backgroundSize: "cover",
+      }}
       className="font-Century_Gothic"
     >
       <Navbar />
@@ -29,8 +30,12 @@ export default function Header() {
               <a href="/">Learn More</a>
             </div>
           </div>
-          <div className="itemImg md:mt-3 2xl:-mt-20 col-span-2">
-            <img src={mainImg} alt="img" />
+          <div className="itemImg md:mt-3 col-span-2">
+            <img
+              src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157621/mainImg_nvtkaa.png"
+              alt="two Iphone image"
+              className="w-full"
+            />
           </div>
         </div>
       </div>

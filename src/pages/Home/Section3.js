@@ -1,17 +1,23 @@
 import React from "react";
-import w from "../../assets/img/wLogo.png";
-import woman from "../../assets/img/womanHoldingPhone.png";
 
 const Section3 = () => {
   return (
     <div className="py-16 font-['Century_Gothic']">
       <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
         <div className="flex md:hidden">
-          <img src={woman} className="max-w-[335px] pb-16" alt="Woman" />
+          <img
+            src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157627/womanHoldingPhone_rt3qud.png"
+            className="max-w-[335px] pb-16"
+            alt="Woman Holding Phone "
+          />
         </div>
         <div className="mx-auto text-start px-[21px] mt-3 2xl:mt-6 md:px-24 2xl:px-40 text-white text-sm 2xl:text-base">
           <div className="py-4 text-4xl 2xl:text-5xl font-bold leading-[54px] md:flex items-baseline">
-            <img src={w} alt="logo" className="md:me-3 w-[58px]" />{" "}
+            <img
+              src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157625/wLogo_lpegc8.png"
+              alt="logo"
+              className="md:me-3 w-[58px]"
+            />{" "}
             <p className="hidden md:block">Tokner is coming</p>
             <p className=" md:hidden">Weetnar is coming</p>
           </div>
@@ -72,9 +78,9 @@ const Section3 = () => {
         </div>
         <div className="hidden lg:block image">
           <img
-            src={woman}
+            src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157627/womanHoldingPhone_rt3qud.png"
             className="max-w-[891px] max-h-[928px]"
-            alt="Woman"
+            alt="Woman Holding Phone"
           />
         </div>
       </div>

@@ -1,17 +1,15 @@
 import React from "react";
-import logo from "../../assets/img/logo.svg";
-import design from "../../assets/img/footerSmallLogo.svg";
-import fb from "../../assets/img/facebook-4-1.svg";
-import github from "../../assets/img/github-1.svg";
-import insta from "../../assets/img/instagram-1-1.svg";
-import medium from "../../assets/img/medium-1.svg";
-import reddit from "../../assets/img/reddit-1.svg";
-import twitter from "../../assets/img/twitter-2-1.svg";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer id="mainFooter font-['Century_Gothic']">
+    <footer
+      id="mainFooter font-['Century_Gothic']"
+      style={{
+        background: `url(https://res.cloudinary.com/dtqdflngh/image/upload/v1693157625/footerBg_sapms6.png) no-repeat`,
+        backgroundSize: "cover",
+      }}
+    >
       <div className="mt-16 md:mt-14 text-white">
         <div className="bg-cover h-auto w-auto mx-8">
           <p className="text-4xl font-semibold text-center my-10">How to buy</p>
@@ -113,38 +111,66 @@ export default function Footer() {
       </div>
       <div className="footer pb-10 md:pb-28 grid md:grid-cols-3 gap-4 md:items-stretch mt-20 md:mt-48">
         <div className="img flex justify-center mb-4 sm:mb-0">
-          <img src={logo} alt="logo" className="max-w-[247px]" />
+          <img
+            src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157619/logo_u772uc.svg"
+            alt="logo"
+            className="max-w-[247px]"
+          />
         </div>
         <div className="middle flex justify-center items-center  mb-4 sm:mb-0">
           <ul className="flex gap-2 md-gap-6">
             <li className="border p-4 border-opacity-60 rounded-full">
               <a href="https://facebook.com">
-                <img src={fb} alt="Facebook" className="max-w-[20px]" />
+                <img
+                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157616/facebook-4-1_rdxxia.svg"
+                  alt="Facebook"
+                  className="max-w-[20px]"
+                />
               </a>
             </li>
             <li className="border p-4 border-opacity-60 rounded-full">
               <a href="https://github.com">
-                <img src={github} alt="GitHub" className="max-w-[20px]" />
+                <img
+                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157618/github-1_clnljr.svg"
+                  alt="GitHub"
+                  className="max-w-[20px]"
+                />
               </a>
             </li>
             <li className="border p-4 border-opacity-60 rounded-full">
               <a href="https://instagram.com">
-                <img src={insta} alt="Instagram" className="max-w-[20px]" />
+                <img
+                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157616/instagram-1-1_lkazbc.svg"
+                  alt="Instagram"
+                  className="max-w-[20px]"
+                />
               </a>
             </li>
             <li className="border p-4 border-opacity-60 rounded-full">
               <a href="https://medium.com">
-                <img src={medium} alt="Medium" className="max-w-[20px]" />
+                <img
+                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157622/medium-1_vbq1xs.svg"
+                  alt="Medium"
+                  className="max-w-[20px]"
+                />
               </a>
             </li>
             <li className="border p-4 border-opacity-60 rounded-full">
               <a href="https://reddit.com">
-                <img src={reddit} alt="Reddit" className="max-w-[20px]" />
+                <img
+                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157622/reddit-1_hiuxwd.svg"
+                  alt="Reddit"
+                  className="max-w-[20px]"
+                />
               </a>
             </li>
             <li className="border p-4 border-opacity-60 rounded-full">
               <a href="https://twitter.com">
-                <img src={twitter} alt="Twitter" className="max-w-[20px]" />
+                <img
+                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157623/twitter-2-1_gvjckq.svg"
+                  alt="Twitter"
+                  className="max-w-[20px]"
+                />
               </a>
             </li>
           </ul>
@@ -154,8 +180,14 @@ export default function Footer() {
             © 2021 Tokners. All rights reserved.
           </p>
           <div className="flex gap-2 justify-end opacity-60">
-            <img src={design} alt="design" />
-            <a href="#" className="text-white text-base underline">
+            <img
+              src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157619/footerSmallLogo_yo59vb.svg"
+              alt="design by"
+            />
+            <a
+              href="https://abdi-portfolio.web.app/"
+              className="text-white text-base underline"
+            >
               Design by Abdullah Murtaza
             </a>
           </div>

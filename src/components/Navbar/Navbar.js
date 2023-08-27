@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import logo from "../../assets/img/logo.svg";
 
 import { Collapse, Dropdown, initTE } from "tw-elements";
 import { Link } from "react-router-dom";
@@ -23,7 +22,11 @@ export default function Navbar() {
             class="mb-4 ml-2 mr-5 mt-3 flex items-center lg:mb-0 lg:mt-0"
             to="/"
           >
-            <img src={logo} alt="TE Logo" loading="lazy" />
+            <img
+              src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157619/logo_u772uc.svg"
+              alt="logo"
+              loading="lazy"
+            />
           </Link>
           {/* <!-- Collapsible navigation container --> */}
           <div

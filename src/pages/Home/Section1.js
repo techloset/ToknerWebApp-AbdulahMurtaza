@@ -1,5 +1,4 @@
 import React from "react";
-import image from "../../assets/img/section1bg.png";
 
 const Section1 = () => {
   return (
@@ -7,9 +6,9 @@ const Section1 = () => {
       <div className="grid pt-[70px] sm:mt-12 grid-cols-1 md:grid-cols-2">
         <div className="items-start">
           <img
-            src={image}
+            src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157628/section1bg_lc7ffu.png"
             className="-scale-x-100 md:scale-100 w-full"
-            alt="vectorImage"
+            alt="Colorful Image"
           />
         </div>
         <div className="flex flex-col h-[700px] md:h-auto font-['Century_Gothic'] md:justify-center items-center pt-16 relative overflow-x-hidden bg-white rounded-tr-[200px] md:rounded-tr-none md:rounded-tl-[160px] lg:rounded-tl-[220px] xl:rounded-tl-[260px]">
@@ -38,8 +37,8 @@ const Section1 = () => {
           </div>
           <div className="h-48 left-48 top-[130px] w-full absolute">
             <img
-              alt="Vector"
-              src="https://file.rendit.io/n/uzZkJxc4SIpxZWEh3pQH.svg"
+              alt="Weetnar Image"
+              src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157625/weetnarBg_tfmccs.svg"
             />
           </div>
         </div>
