@@ -289,8 +289,8 @@ function PreSale() {
         </div>
       </div>
 
-      {/* Mobile Resposive Presale */}
-      <div className="preSaleMbl pb-[160px] sm:hidden">
+      {/* Mobile View */}
+      <div className="preSaleMbl pb-[160px] font-['Century_Gothic'] sm:hidden">
         <h2 className="text-center text-[#fff] text-5xl font-bold leading-[54px] pt-[127px]">
           Presale Details
         </h2>
