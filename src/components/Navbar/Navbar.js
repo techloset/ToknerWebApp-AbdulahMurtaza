@@ -13,13 +13,13 @@ export default function Navbar() {
     <>
       {/* <!-- Main navigation container --> */}
       <nav
-        class="flex-no-wrap relative flex w-full items-center justify-between py-2  lg:flex-wrap lg:justify-start lg:py-4"
+        class="flex-no-wrap relative flex w-full items-center justify-between lg:flex-wrap lg:justify-start"
         data-te-navbar-ref
       >
         <div class="flex w-full flex-wrap items-center justify-between px-3">
           {/* <!-- Logo --> */}
           <Link
-            class="mb-4 ml-2 mr-5 mt-3 flex items-center lg:mb-0 lg:mt-0"
+            class="mb-4 mt-10 md:ms-10 me-12 flex items-center lg:mb-0"
             to="/"
           >
             <img
@@ -36,29 +36,29 @@ export default function Navbar() {
           >
             {/* <!-- Left navigation links --> */}
             <ul
-              class="list-style-none mr-auto flex flex-col pl-0 mt-2 lg:flex-row text-white font-bold text-sm gap-4"
+              class="list-style-none mr-auto flex flex-col mt-[51px] lg:flex-row text-white font-bold text-sm gap-4"
               data-te-navbar-nav-ref
             >
               {/* <!-- Our team link --> */}
-              <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+              <li class="mb-4 md:mb-0" data-te-nav-item-ref>
                 <Link class="nav-link" to="/" data-te-nav-link-ref>
                   Our team
                 </Link>
               </li>
               {/* <!-- Tokens link --> */}
-              <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+              <li class="mb-4 md:mb-0" data-te-nav-item-ref>
                 <Link class="nav-link" to="/" data-te-nav-link-ref>
                   Tokens
                 </Link>
               </li>
               {/* <!-- Connect Wallet link --> */}
-              <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+              <li class="mb-4 md:mb-0" data-te-nav-item-ref>
                 <Link class="nav-link" to="/" data-te-nav-link-ref>
                   Connect Wallet
                 </Link>
               </li>
               {/* <!--Lightpaper link --> */}
-              <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+              <li class="mb-4 md:mb-0" data-te-nav-item-ref>
                 <Link class="nav-link" to="/" data-te-nav-link-ref>
                   Lightpaper
                 </Link>
@@ -66,17 +66,17 @@ export default function Navbar() {
             </ul>
           </div>
           {/* <!-- Right elements --> */}
-          <div class="hidden relative lg:flex items-center text-white font-bold text-sm">
+          <div class="hidden relative lg:flex items-center text-white font-bold text-sm pt-9 pe-10">
             <div className="mx-[10px] py-2 px-3  hover:text-gray-600 transition ease-linear delay-200">
               <Link>Sign in</Link>
             </div>
-            <div className="mx-[10px] border-2 border-[#22a75d] py-2 px-4 rounded-3xl hover:bg-[#22a75d] transition ease-in-out delay-200">
+            <div className="mx-[10px] w-[147px] h-[48px] text-center border-2 border-[#22a75d] py-3 px-4 rounded-3xl hover:bg-[#22a75d] transition ease-in-out delay-200">
               <Link>Sign up</Link>
             </div>
           </div>
           {/* <!-- Hamburger button for mobile view --> */}
           <button
-            class="block border-0 bg-transparent px-2 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+            class="block border-0 bg-transparent mt-10 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
             type="button"
             data-te-collapse-init
             data-te-target="#navbarSupportedContent1"

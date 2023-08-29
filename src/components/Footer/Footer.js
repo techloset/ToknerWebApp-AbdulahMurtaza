@@ -10,16 +10,16 @@ export default function Footer() {
         backgroundSize: "cover",
       }}
     >
-      <div className="mt-16 md:mt-14 text-white">
-        <div className="bg-cover h-auto w-auto mx-8">
+      <div className="mt-16 md:mt-14 text-white  font-['Century_Gothic']">
+        <div className="bg-cover h-auto w-auto md:mx-8">
           <p className="text-4xl font-semibold text-center my-10">How to buy</p>
           <div className="flex lg:flex-nowrap flex-wrap justify-center  lg:mx-0 mx-5 gap-2">
-            <div className="w-[511px] h-[270px] xs:w-[335px] xs:h-[216px] bg-[#171B29] rounded-[25px] relative mt-[50px] ">
-              <span className="text-xs font-bold leading-6 opacity-30 ml-[30px] pt-[30px] block">
+            <div className="md:w-[511px] md:h-[270px] w-[335px] h-[216px] bg-[#171B29] rounded-[25px] relative mt-[50px] ">
+              <span className="text-xs font-bold ms-7 mt-12 md:mt-6 leading-6 opacity-30 md:ml-[30px] md:pt-[30px] block">
                 01
               </span>
-              <div className="flex flex-col justify-center items-center text-lg font-bold leading-6 mt-[45px] xs:mt-5 xs:text-base">
-                <p className="w-[56%] xs:w-[70%] 2xl:w-[52%]">
+              <div className="flex flex-col justify-center items-center text-lg font-bold leading-6 mt-5 md:mt-[45px] xs:mt-5 xs:text-base">
+                <p className="2xl:w-[52%] ms-7 mr-8 md:ms-28 md:mr-24 2xl:mr-0 2xl:ms-0">
                   First Connect your Metamask or TrustWallet to the "Connect
                   Wallet" on the Homepage.
                 </p>
@@ -45,12 +45,12 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="w-[511px] h-[270px] xs:w-[335px] xs:h-[216px] bg-[#171B29] rounded-[25px] relative lg:ml-5 lg:mt-[110px] sm:mt-5 xs:mt-5">
-              <span className="text-xs font-bold leading-6 opacity-30 ml-[30px] pt-[30px] block">
+            <div className="md:w-[511px] md:h-[270px] w-[335px] h-[216px] bg-[#171B29] rounded-[25px] relative lg:ml-5 lg:mt-[110px] sm:mt-5 xs:mt-5">
+              <span className="text-xs font-bold ms-7 mt-12 md:mt-6 leading-6 opacity-30 md:ml-[30px] md:pt-[30px] block">
                 02
               </span>
-              <div className="flex flex-col justify-center items-center text-lg font-bold leading-6 mt-[45px] xs:mt-5 xs:text-base">
-                <p className="w-[56%] xs:w-[70%] 2xl:w-[52%]">
+              <div className="flex flex-col justify-center items-center text-lg font-bold leading-6 mt-5 md:mt-[45px] xs:mt-5 xs:text-base">
+                <p className="2xl:w-[52%] ms-7 mr-8 md:ms-28 md:mr-24 2xl:mr-0 2xl:ms-0">
                   Then send a minimum of 0.1 BNB or a maximum of 10 BNB to the
                   Presale wallet.
                 </p>
@@ -76,21 +76,21 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="w-[511px] h-[270px] xs:w-[335px] xs:h-[216px] bg-[#171B29] rounded-[25px] relative lg:ml-5 lg:mt-[50px] sm:mt-5 xs:mt-5">
-              <span className="text-xs font-bold leading-6 opacity-30 ml-[30px] pt-[30px] block">
+            <div className="md:w-[511px] md:h-[270px] w-[335px] h-[216px] bg-[#171B29] rounded-[25px] relative lg:ml-5 lg:mt-[50px] sm:mt-5 xs:mt-5">
+              <span className="text-xs font-bold ms-7 mt-12 md:mt-6 leading-6 opacity-30 md:ml-[30px] md:pt-[30px] block">
                 03
               </span>
-              <div className="flex flex-col justify-center items-center text-lg font-bold leading-6 mt-[45px] xs:mt-5 xs:text-base">
-                <p className="w-[56%] xs:w-[70%] 2xl:w-[52%]">
-                  Then you will receive your $WNTR to your address within 24
-                  hours.
+              <div className="flex flex-col justify-center items-center text-lg font-bold leading-6 mt-5 md:mt-[45px] xs:mt-5 xs:text-base">
+                <p className="2xl:w-[52%] ms-7 mr-8 md:ms-28 md:mr-24 2xl:mr-0 2xl:ms-0">
+                  Then after you will received your $WNTR to your address within
+                  24hours.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="mt-44 md:block hidden px-4">
+      <div className="mt-44 md:block hidden px-4  font-['Century_Gothic']">
         <ul className="list-none flex uppercase text-base gap-16 font-bold text-white justify-center">
           <li className="underline">
             <Link to="/">Our team</Link>
@@ -109,7 +109,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div className="footer pb-10 md:pb-28 grid md:grid-cols-3 gap-4 md:items-stretch mt-20 md:mt-48">
+      <div className="footer pb-10 md:pb-28 grid md:grid-cols-3 gap-4 md:items-stretch mt-20 md:mt-48  font-['Century_Gothic']">
         <div className="img flex justify-center mb-4 sm:mb-0">
           <img
             src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157619/logo_u772uc.svg"
@@ -118,58 +118,58 @@ export default function Footer() {
           />
         </div>
         <div className="middle flex justify-center items-center  mb-4 sm:mb-0">
-          <ul className="flex gap-2 md-gap-6">
-            <li className="border p-4 border-opacity-60 rounded-full">
-              <a href="https://facebook.com">
-                <img
-                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157616/facebook-4-1_rdxxia.svg"
-                  alt="Facebook"
-                  className="max-w-[20px]"
-                />
-              </a>
-            </li>
-            <li className="border p-4 border-opacity-60 rounded-full">
-              <a href="https://github.com">
-                <img
-                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157618/github-1_clnljr.svg"
-                  alt="GitHub"
-                  className="max-w-[20px]"
-                />
-              </a>
-            </li>
-            <li className="border p-4 border-opacity-60 rounded-full">
-              <a href="https://instagram.com">
-                <img
-                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157616/instagram-1-1_lkazbc.svg"
-                  alt="Instagram"
-                  className="max-w-[20px]"
-                />
-              </a>
-            </li>
-            <li className="border p-4 border-opacity-60 rounded-full">
-              <a href="https://medium.com">
-                <img
-                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157622/medium-1_vbq1xs.svg"
-                  alt="Medium"
-                  className="max-w-[20px]"
-                />
-              </a>
-            </li>
-            <li className="border p-4 border-opacity-60 rounded-full">
-              <a href="https://reddit.com">
-                <img
-                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157622/reddit-1_hiuxwd.svg"
-                  alt="Reddit"
-                  className="max-w-[20px]"
-                />
-              </a>
-            </li>
-            <li className="border p-4 border-opacity-60 rounded-full">
+          <ul className="flex mx-5 gap-2 md-gap-6">
+            <li className="border p-[14.4px] md:p-4 border-opacity-60 rounded-full">
               <a href="https://twitter.com">
                 <img
                   src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157623/twitter-2-1_gvjckq.svg"
                   alt="Twitter"
-                  className="max-w-[20px]"
+                  className="w-[19.2px] md:w-[20px]"
+                />
+              </a>
+            </li>
+            <li className="border p-[14.4px] md:p-4 border-opacity-60 rounded-full">
+              <a href="https://facebook.com">
+                <img
+                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157616/facebook-4-1_rdxxia.svg"
+                  alt="Facebook"
+                  className="w-[19.2px] md:w-[20px]"
+                />
+              </a>
+            </li>
+            <li className="border p-[14.4px] md:p-4 border-opacity-60 rounded-full">
+              <a href="https://instagram.com">
+                <img
+                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157616/instagram-1-1_lkazbc.svg"
+                  alt="Instagram"
+                  className="w-[19.2px] md:w-[20px]"
+                />
+              </a>
+            </li>
+            <li className="border p-[14.4px] md:p-4 border-opacity-60 rounded-full">
+              <a href="https://medium.com">
+                <img
+                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157622/medium-1_vbq1xs.svg"
+                  alt="Medium"
+                  className="w-[19.2px] md:w-[20px]"
+                />
+              </a>
+            </li>
+            <li className="border p-[14.4px] md:p-4 border-opacity-60 rounded-full">
+              <a href="https://github.com">
+                <img
+                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157618/github-1_clnljr.svg"
+                  alt="GitHub"
+                  className="w-[19.2px] md:w-[20px]"
+                />
+              </a>
+            </li>
+            <li className="border p-[14.4px] md:p-4 border-opacity-60 rounded-full">
+              <a href="https://reddit.com">
+                <img
+                  src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157622/reddit-1_hiuxwd.svg"
+                  alt="Reddit"
+                  className="w-[19.2px] md:w-[20px]"
                 />
               </a>
             </li>

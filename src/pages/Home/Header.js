@@ -5,22 +5,24 @@ export default function Header() {
   return (
     <header
       style={{
-        background: `url(https://res.cloudinary.com/dtqdflngh/image/upload/v1693157622/bg_trnrfn.png) no-repeat`,
+        background: `url(https://res.cloudinary.com/dtqdflngh/image/upload/v1693157622/bg_trnrfn.png)`,
         backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
       }}
-      className="font-Century_Gothic"
+      className="font-['Century_Gothic']"
     >
       <Navbar />
       <div>
         <div className="grid md:grid-cols-3 md:ms-20 justify-between">
-          <div className="mt-6 md:mt-40 ms-3 text-start">
-            <div className="mt-6 bg-gradient-to-t from-[#2B3087] to-[#00B4EC] bg-clip-text text-transparent font-500 text-sm 2xl:text-base">
-              At Tokners Are
+          <div className="ms-4 md:mt-40 md:ms-8 2xl:ms-12 text-start">
+            <div className="mt-16 bg-gradient-to-t from-[#2B3087] to-[#00B4EC] bg-clip-text text-transparent font-bold text-sm 2xl:text-base">
+              At Tokners We Are
             </div>
-            <div className="mt-4 text-[#fff] font-700 leading-[54px] text-4xl 2xl:text-5xl">
+            <div className="mt-4 text-[#fff] leading-[44px] font-bold text-4xl 2xl:text-5xl xl:pr-4 2xl:pr-0">
               Reimagining social media through the power of the blockchain.
             </div>
-            <div className="mt-4 opacity-60 text-[#DDE2FF] text-sm 2xl:text-base font-400 leading-6 pr-8 md:pr-2 2xl:pr-20">
+            <div className="mt-4 opacity-60 text-[#DDE2FF] text-sm 2xl:text-base font-400 leading-6 pr-8 md:pr-10 2xl:pr-24">
               We are creating social media 3.0 with influencers, celebrities and
               creators being able to launch their own digital currency by simply
               creating a profile with media content posted as Non-fungible
@@ -30,7 +32,16 @@ export default function Header() {
               <a href="/">Learn More</a>
             </div>
           </div>
-          <div className="itemImg md:mt-3 col-span-2">
+          <div
+            className="md:hidden h-[400px]"
+            style={{
+              background: `url(https://res.cloudinary.com/dtqdflngh/image/upload/v1693157621/mainImg_nvtkaa.png)`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
+          <div className="itemImg md:mt-3 col-span-2 2xl:mt-12 hidden md:block">
             <img
               src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157621/mainImg_nvtkaa.png"
               alt="two Iphone image"

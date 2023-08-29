@@ -3,7 +3,7 @@ import React from "react";
 const Section1 = () => {
   return (
     <section>
-      <div className="grid pt-[70px] sm:mt-12 grid-cols-1 md:grid-cols-2">
+      <div className="grid pt-[70px] grid-cols-1 md:grid-cols-2">
         <div className="items-start">
           <img
             src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157628/section1bg_lc7ffu.png"
@@ -11,8 +11,8 @@ const Section1 = () => {
             alt="Colorful Image"
           />
         </div>
-        <div className="flex flex-col h-[700px] md:h-auto font-['Century_Gothic'] md:justify-center items-center pt-16 relative overflow-x-hidden bg-white rounded-tr-[200px] md:rounded-tr-none md:rounded-tl-[160px] lg:rounded-tl-[220px] xl:rounded-tl-[260px]">
-          <div className="text-gray-900 w-[85%] md:w-[80%]">
+        <div className="flex flex-col h-[700px] md:h-auto font-['Century_Gothic'] md:justify-center items-center pt-20 relative overflow-x-hidden bg-white rounded-tr-[200px] md:rounded-tr-none md:rounded-tl-[160px] lg:rounded-tl-[220px] xl:rounded-tl-[260px] 2xl:rounded-tl-[400px]">
+          <div className="text-gray-900 ms-5 md:ms-28 md:me-36 2xl:ms-36 2xl:me-60">
             <div className="text-4xl not-italic 2xl:text-5xl font-bold leading-10">
               What makes <br className="md:hidden" /> us different?
             </div>
@@ -20,14 +20,14 @@ const Section1 = () => {
               We would only launch tokens with the express permission of the
               creators.
             </p>
-            <p className="2xl:text-base pe-6 md-pe-0 text-xs leading-6 opacity-60">
-              There are several thousand celebrities and creators on Twitter,
-              TikTok, Instagram, and YouTube with followings in the millions who
+            <p className="2xl:text-base pe-6 md-pe-0 text-sm leading-6 opacity-60">
+              There are several thousand celebrities and creators on twitter,
+              tiktok, Instagram and YouTube with followings in the millions who
               we would be actively engaging before we go viral.
               <br />
               <br />
               We would get them on our platform and they would see the
-              opportunity to create a fan-driven digital economy where their
+              opportunity to create a fan driven digital economy where their
               digital content can be traded as NFTs and their most loyal fans
               can have the monetary value of their creator's currency increase
               significantly as they promote their digital currency across their
