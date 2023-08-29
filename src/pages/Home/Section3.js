@@ -11,7 +11,7 @@ const Section3 = () => {
             alt="Woman Holding Phone "
           />
         </div>
-        <div className="mx-auto text-start px-[21px] mt-3 2xl:mt-6 md:px-24 2xl:px-40 text-white text-sm 2xl:text-base">
+        <div className="mx-auto text-start px-[21px] mt-3 2xl:mt-6 md:px-24 2xl:px-36 text-white text-sm 2xl:text-base">
           <div className="py-4 text-4xl 2xl:text-5xl font-bold leading-[54px] md:flex items-baseline">
             <img
               src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157625/wLogo_lpegc8.png"
@@ -27,7 +27,7 @@ const Section3 = () => {
             against its mass adoption and the smartest developers and nerds
             holding the fort
           </div>
-          <div className="my-2 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2xl 2xl:pr-10">
+          <div className="my-2 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2xl 2xl:pr-12">
             Bitcoin was the first, and it has since grown to thousands of tokens
             launched all aiming to fix one problem or the other with some quite
             simply FOMOing the moment. Our goal is to bring mass adoption to the
@@ -44,14 +44,14 @@ const Section3 = () => {
             make it the norm and inadvertently being the "gateway drug" for a
             lot of people to finally give this space a real look.
           </div>
-          <div className="my-3 font-[700] text-[#9FA1A6] leading-[24px] hidden lg:block  2xl:pr-10">
+          <div className="my-3 font-[700] text-[#9FA1A6] leading-[24px] hidden lg:block  2xl:pr-5">
             A new digital economy is coming. People would be just as powerful as
             countries and creators would be paid beyond the peanuts that
             conventional social media platforms can offer.
           </div>
           <div className="my-2 font-[400] text-[#9FA1A6] leading-[24px] hidden lg:block">
-            There would be new markets and advertisers with little to offer
-            would not find home there. Like Kanye said,
+            There would benew markets and advertisers with little to offer would
+            not find home there. Like Kanye said,
             <div className="flex flex-row flex-wrap gap-3 my-4 items-start  2xl:pr-12">
               <div className="text-2xl font-bold leading-[24px] text-[#ffd100] mt-1 hidden lg:contents">
                 “{" "}
@@ -62,7 +62,7 @@ const Section3 = () => {
               </div>
             </div>
           </div>
-          <div className="text-white opacity-60 text-base  2xl:pr-4">
+          <div className="text-white opacity-60 text-base  2xl:pr-10">
             Well, Kanye didn't exactly say that, but it sounds like something we
             hope he would say.
             <br />
@@ -76,7 +76,7 @@ const Section3 = () => {
             <a href="">Read More</a>
           </div>
         </div>
-        <div className="hidden lg:block image 2xl:me-44">
+        <div className="hidden lg:block image me-8 2xl:me-44">
           <img
             src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157627/womanHoldingPhone_rt3qud.png"
             className="2xl:w-[891px] 2xl:h-[928px]"
