@@ -25,7 +25,7 @@ export default function Hero() {
                 Creators
               </div>
             </div>
-            <div className="leading-[24px] text-white w-full opacity-60 2xl:pr-3">
+            <div className="leading-[24px] text-white w-full opacity-50">
               Creators can gain independence through a decentralised digital
               currency system that is dependent on growing and engaging with the
               community and also their star power. They own 10-15% of the total
@@ -65,10 +65,10 @@ export default function Hero() {
                 Holders
               </div>
             </div>
-            <div className="leading-[24px] text-white w-full opacity-60 2xl:pr-[14px]">
+            <div className="leading-[24px] text-white w-full opacity-50 2xl:pr-3">
               Holding social tokens allows the individual to gain access to
               benefits including unreleased content, private communities, direct
-              access to celebrity, early- access to tickets and more as well as
+              access to celebrity, early- access to tickets and more aswell as
               the ability to trade with other communities in order to gain
               access to more creator content with early token buyers being the
               biggest winners as the value of the token increases with more

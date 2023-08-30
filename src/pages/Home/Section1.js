@@ -12,7 +12,7 @@ const Section1 = () => {
           />
         </div>
         <div className="flex flex-col h-[700px] md:h-auto font-['Century_Gothic'] md:justify-center items-center pt-20 relative overflow-x-hidden bg-white rounded-tr-[200px] md:rounded-tr-none md:rounded-tl-[160px] lg:rounded-tl-[220px] xl:rounded-tl-[260px] 2xl:rounded-tl-[400px]">
-          <div className="text-gray-900 ms-5 md:ms-28 md:me-36 2xl:ms-36 2xl:me-60">
+          <div className="text-gray-900 ms-5 md:ms-28 md:me-36 2xl:ms-36 2xl:me-[215px]">
             <div className="text-4xl not-italic 2xl:text-5xl font-bold leading-10">
               What makes <br className="md:hidden" /> us different?
             </div>
