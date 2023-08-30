@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Section3 = () => {
+  const [isShowMore, setIsShowMore] = useState(false);
+
+  const toggleReadMoreLess = () => {
+    setIsShowMore(!isShowMore);
+  };
+
   return (
     <div className="pt-16 font-['Century_Gothic']">
       <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
@@ -44,36 +50,75 @@ const Section3 = () => {
             make it the norm and inadvertently being the "gateway drug" for a
             lot of people to finally give this space a real look.
           </div>
-          <div className="my-3 font-[700] text-[#9FA1A6] leading-[24px] hidden lg:block  2xl:pr-5">
-            A new digital economy is coming. People would be just as powerful as
-            countries and creators would be paid beyond the peanuts that
-            conventional social media platforms can offer.
-          </div>
-          <div className="my-2 font-[400] text-[#9FA1A6] leading-[24px] hidden lg:block">
-            There would benew markets and advertisers with little to offer would
-            not find home there. Like Kanye said,
-            <div className="flex flex-row flex-wrap gap-3 my-4 items-start  2xl:pr-12">
-              <div className="text-2xl font-bold leading-[24px] text-[#ffd100] mt-1 hidden lg:contents">
-                “{" "}
+          {!isShowMore ? (
+            <>
+              {" "}
+              <div className="my-3 font-[700] text-[#9FA1A6] leading-[24px] hidden lg:block  2xl:pr-5">
+                A new digital economy is coming. People would be just as
+                powerful as countries and creators would be paid beyond the
+                peanuts that conventional social media platforms can offer.
               </div>
-              <div className="font-bold leading-[24px] italic text-[#9fa1a6] hidden lg:contents">
-                Personalities would become the new currency, and services would
-                be built on top of them".
+              <div className="my-2 font-[400] text-[#9FA1A6] leading-[24px] hidden lg:block">
+                There would benew markets and advertisers with little to offer
+                would not find home there. Like Kanye said,
+                <div className="flex flex-row flex-wrap gap-3 my-4 items-start  2xl:pr-12">
+                  <div className="text-2xl font-bold leading-[24px] text-[#ffd100] mt-1 hidden lg:contents">
+                    “{" "}
+                  </div>
+                  <div className="font-bold leading-[24px] italic text-[#9fa1a6] hidden lg:contents">
+                    Personalities would become the new currency, and services
+                    would be built on top of them".
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className="text-white opacity-60 text-base  2xl:pr-10">
-            Well, Kanye didn't exactly say that, but it sounds like something we
-            hope he would say.
-            <br />
-            <br />
-            Currency is digital, it has been that way for a while now, but this
-            time there would be no dead presidents on the money, there would
-            people like you on the money, and you would own it because it would
-            make the most sense in the world.
-          </div>
+              <div className="text-white opacity-60 text-base hidden lg:block  2xl:pr-10">
+                Well, Kanye didn't exactly say that, but it sounds like
+                something we hope he would say.
+                <br />
+                <br />
+                Currency is digital, it has been that way for a while now, but
+                this time there would be no dead presidents on the money, there
+                would people like you on the money, and you would own it because
+                it would make the most sense in the world.
+              </div>
+            </>
+          ) : (
+            <>
+              {" "}
+              <div className="my-3 font-[700] text-[#9FA1A6] leading-[24px]  lg:hidden  2xl:pr-5">
+                A new digital economy is coming. People would be just as
+                powerful as countries and creators would be paid beyond the
+                peanuts that conventional social media platforms can offer.
+              </div>
+              <div className="my-2 font-[400] text-[#9FA1A6] leading-[24px]  lg:hidden">
+                There would benew markets and advertisers with little to offer
+                would not find home there. Like Kanye said,
+                <div className="flex flex-row flex-wrap gap-3 my-4 items-start  2xl:pr-12">
+                  <div className="text-2xl font-bold leading-[24px] text-[#ffd100] mt-1 contents lg:hidden">
+                    “{" "}
+                  </div>
+                  <div className="font-bold leading-[24px] italic text-[#9fa1a6] contents lg:hidden">
+                    Personalities would become the new currency, and services
+                    would be built on top of them".
+                  </div>
+                </div>
+              </div>
+              <div className="text-white opacity-60 text-base  2xl:pr-10 lg:hidden">
+                Well, Kanye didn't exactly say that, but it sounds like
+                something we hope he would say.
+                <br />
+                <br />
+                Currency is digital, it has been that way for a while now, but
+                this time there would be no dead presidents on the money, there
+                would people like you on the money, and you would own it because
+                it would make the most sense in the world.
+              </div>
+            </>
+          )}
           <div className="md:w-[147px] md:h-[48px] md:text-center leading-[47px] text-lg font-bold decoration-dotted underline md:no-underline text-[#22A75D] md:text-white md:border border-green-600 md:rounded-[54px] ms:learnMoreBtn mt-5">
-            <a href="">Read More</a>
+            <a href="javascript:void(0)" onClick={toggleReadMoreLess}>
+              {isShowMore ? "Hide" : "Read More"}
+            </a>
           </div>
         </div>
         <div className="hidden lg:block image me-8 2xl:me-44">

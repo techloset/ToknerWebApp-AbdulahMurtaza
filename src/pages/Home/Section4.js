@@ -8,9 +8,9 @@ function PreSale() {
         <h2 className="text-5xl text-center font-bold text-white mb-6 pt-[320px]">
           Presale Details
         </h2>
-        <div className="grid grid-cols-3 gap-2 xl:gap-8 mx-12 xl:mx-32">
+        <div className="grid grid-cols-3 gap-2 xl:gap-2 mx-12 2xl:mx-40">
           {/* Card 1 */}
-          <div className="card bg-white text-gray-900 font-bold rounded-3xl mx-auto 2xl:w-[511px] 2xl:h-[585px] w-full text-center py-16 mb-10">
+          <div className="card bg-white text-gray-900 font-bold rounded-3xl mx-auto 2xl:max-w-[511px] 2xl:h-[585px] w-full text-center py-16 mb-10">
             <div
               className="bg-image py-3"
               style={{
@@ -99,7 +99,7 @@ function PreSale() {
           </div>
           {/* End Card 1 */}
           {/* Card 2 */}
-          <div className="card bg-white text-gray-900 font-bold rounded-3xl mx-auto 2xl:w-[511px] 2xl:h-[585px] w-full text-center py-16 mt-10">
+          <div className="card bg-white text-gray-900 font-bold rounded-3xl mx-auto 2xl:max-w-[511px] 2xl:h-[585px] w-full text-center py-16 mt-10">
             <div
               className="bg-image py-3"
               style={{
@@ -188,7 +188,7 @@ function PreSale() {
           </div>
           {/* End Card 2 */}
           {/* Card 3 */}
-          <div className="card bg-white   text-gray-900 font-bold rounded-3xl mx-auto 2xl:w-[511px] 2xl:h-[585px] w-full text-center py-16 mb-10">
+          <div className="card bg-white   text-gray-900 font-bold rounded-3xl mx-auto 2xl:max-w-[511px] 2xl:h-[585px] w-full text-center py-16 mb-10">
             <div
               className="bg-image py-3"
               style={{

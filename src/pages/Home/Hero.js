@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="md:px-10 p-4 2xl:px-44 font-['Century_Gothic'] bg-[#0F1320]">
       <div className="grid md:grid-cols-2 gap-5 mt-[50px] sm:mt-12 ">
         {/* First Card */}
-        <div className="bg-[#171b29] flex flex-[1 1 48%] py-8 md:py-10 px-8 2xl:px-16 text-start rounded-3xl flex-col justify-between items-start gap-8 mb-10 2xl:py-16 2xl:w-[777px] 2xl:h-[436px]">
+        <div className="bg-[#171b29] flex flex-[1 1 48%] py-8 md:py-10 px-8 2xl:px-16 text-start rounded-3xl flex-col justify-between items-start gap-8 mb-20 2xl:py-16 2xl:max-w-[777px] 2xl:max-h-[436px]">
           <div className="self-stretch flex flex-col justify-between gap-5 items-start">
             <div
               className="shadow-[0px_15px_25px_0px_rgba(34,_167,_93,_0.25)] bg-[#22a75d] flex flex-col justify-center ml-px w-16 h-16 shrink-0 items-center rounded-[50%]"
@@ -45,7 +45,7 @@ export default function Hero() {
         </div>
 
         {/* Second Card */}
-        <div className="bg-[#171b29] flex flex-[1 1 48%] py-8 md:py-10 px-8 2xl:px-16 text-start rounded-3xl flex-col justify-between items-start gap-8 mt-10 2xl:py-16 2xl:w-[777px] 2xl:h-[436px]">
+        <div className="bg-[#171b29] flex flex-[1 1 48%] py-8 md:py-10 px-8 2xl:px-16 text-start rounded-3xl flex-col justify-between items-start gap-8 mt-20 2xl:py-16 2xl:max-w-[777px] 2xl:max-h-[436px]">
           <div className="self-stretch flex flex-col justify-between gap-5 items-start">
             <div
               className="shadow-[0px_15px_25px_0px_rgba(34,_120,_212,_0.25)] bg-[#2278d4] flex flex-col justify-center ml-px w-16 h-16 shrink-0 items-center rounded-[50%]"

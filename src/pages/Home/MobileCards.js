@@ -31,7 +31,7 @@ export default function MobileCards() {
         >
           <SwiperSlide className="min-h-[550px]">
             {/* Card 1 */}
-            <div className="card bg-white text-gray-900 font-bold rounded-3xl w-[335px] h-[445px] text-center py-[54px] px-16">
+            <div className="card bg-white text-gray-900 font-bold rounded-3xl w-[335px] h-[445px] text-center py-[60px] px-16">
               <div className="bg-image">
                 <div
                   className="flex justify-center items-center"
@@ -106,20 +106,20 @@ export default function MobileCards() {
                   </svg>
                 </div>
                 <h5 className="card-title text-3xl ">Phase One</h5>
-                <div className=" leading-5 opacity-80">
+                <div className=" leading-5 opacity-80 mt-1">
                   0/04/2021 - 16/04/2021
                 </div>
               </div>
-              <div className=" text-xl  leading-5 mt-16  opacity-80">
+              <div className=" text-xl  leading-5 mt-10  opacity-80">
                 1 BNB = 100000 WNTR
               </div>
-              <div className="text-base font-normal leading-5">
+              <div className="mt-5 text-base font-normal leading-5">
                 Soft cap:{" "}
                 <span className=" leading-5 font-bold  opacity-80">
                   5000 BNB
                 </span>
               </div>
-              <div className="text-base font-normal leading-5 opacity-80">
+              <div className="mt-[10px] text-base font-normal leading-5 opacity-80">
                 Hard cap:{" "}
                 <span className=" leading-5 font-bold opacity-80">
                   10000 BNB
@@ -130,7 +130,7 @@ export default function MobileCards() {
           </SwiperSlide>
           <SwiperSlide className="min-h-[550px]">
             {/* Card 2 */}
-            <div className="card bg-white text-gray-900 font-bold rounded-3xl w-[335px] h-[445px] text-center py-[54px] px-16">
+            <div className="card bg-white text-gray-900 font-bold rounded-3xl w-[335px] h-[445px] text-center py-[60px] px-16">
               <div className="bg-image">
                 <div
                   className="flex justify-center"
@@ -205,20 +205,20 @@ export default function MobileCards() {
                   </svg>
                 </div>
                 <h5 className="card-title text-3xl ">Phase Two</h5>
-                <div className=" leading-5 opacity-80">
+                <div className=" leading-5 opacity-80 mt-1">
                   0/04/2021 - 16/04/2021
                 </div>
               </div>
-              <div className=" text-xl  leading-5 mt-16  opacity-80">
+              <div className=" text-xl  leading-5 mt-10  opacity-80">
                 1 BNB = 100000 WNTR
               </div>
-              <div className="text-base font-normal leading-5">
+              <div className="mt-5 text-base font-normal leading-5">
                 Soft cap:{" "}
                 <span className=" leading-5 font-bold  opacity-80">
                   5000 BNB
                 </span>
               </div>
-              <div className="text-base font-normal leading-5 opacity-80">
+              <div className="mt-[10px] text-base font-normal leading-5 opacity-80">
                 Hard cap:{" "}
                 <span className=" leading-5 font-bold opacity-80">
                   10000 BNB
@@ -229,7 +229,7 @@ export default function MobileCards() {
           </SwiperSlide>
           <SwiperSlide className="min-h-[550px]">
             {/* Card 3 */}
-            <div className="card bg-white   text-gray-900 font-bold rounded-3xl w-[335px] h-[445px] text-center py-[54px] px-16">
+            <div className="card bg-white   text-gray-900 font-bold rounded-3xl w-[335px] h-[445px] text-center py-[60px] px-16">
               <div className="bg-image">
                 <div
                   className="flex justify-center"
@@ -304,20 +304,20 @@ export default function MobileCards() {
                   </svg>
                 </div>
                 <h5 className="card-title text-3xl ">Phase Three</h5>
-                <div className=" leading-5 opacity-80">
+                <div className=" leading-5 opacity-80 mt-1">
                   0/04/2021 - 16/04/2021
                 </div>
               </div>
-              <div className=" text-xl  leading-5 mt-16  opacity-80">
+              <div className=" text-xl  leading-5 mt-10  opacity-80">
                 1 BNB = 100000 WNTR
               </div>
-              <div className="text-base font-normal leading-5">
+              <div className="mt-5 text-base font-normal leading-5">
                 Soft cap:{" "}
                 <span className=" leading-5 font-bold  opacity-80">
                   5000 BNB
                 </span>
               </div>
-              <div className="text-base font-normal leading-5 opacity-80">
+              <div className="mt-[10px] text-base font-normal leading-5 opacity-80">
                 Hard cap:{" "}
                 <span className=" leading-5 font-bold opacity-80">
                   10000 BNB
