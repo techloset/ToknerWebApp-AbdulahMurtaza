@@ -33,7 +33,7 @@ const Section3 = () => {
             against its mass adoption and the smartest developers and nerds
             holding the fort
           </div>
-          <div className="my-2 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2xl 2xl:pr-12">
+          <div className="my-2 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2xl 2xl:pr-11">
             Bitcoin was the first, and it has since grown to thousands of tokens
             launched all aiming to fix one problem or the other with some quite
             simply FOMOing the moment. Our goal is to bring mass adoption to the
@@ -42,8 +42,9 @@ const Section3 = () => {
             and have them download an app, buy into the social currency of their
             favorite person and watch their investment as is with other crypto
             currency projects.
-            <br />
-            <br />
+          </div>
+
+          <div className="my-3 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2xl 2xl:pr-12">
             We are trying to do to this space what investment apps did for the
             "nonexistent retail investors". We are gamifying digital currency,
             bringing in popular faces instead of hard-to-understand projects to
@@ -61,19 +62,19 @@ const Section3 = () => {
               <div className="my-2 font-[400] text-[#9FA1A6] leading-[24px] hidden lg:block">
                 There would benew markets and advertisers with little to offer
                 would not find home there. Like Kanye said,
-                <div className="flex flex-row flex-wrap gap-3 my-4 items-start  2xl:pr-12">
+                <div className="flex flex-row flex-wrap gap-3 my-4 items-start  2xl:pr-14">
                   <div className="text-2xl font-bold leading-[24px] text-[#ffd100] mt-1 hidden lg:contents">
                     “{" "}
                   </div>
                   <div className="font-bold leading-[24px] italic text-[#9fa1a6] hidden lg:contents">
-                    Personalities would become the new currency, and services
+                    "Personalities would become the new currency, and services
                     would be built on top of them".
                   </div>
                 </div>
               </div>
-              <div className="text-white opacity-60 text-base hidden lg:block  2xl:pr-10">
+              <div className="text-white opacity-60 text-base hidden lg:block  2xl:pr-9">
                 Well, Kanye didn't exactly say that, but it sounds like
-                something we hope he would say.
+                something we hope he <br /> would say.
                 <br />
                 <br />
                 Currency is digital, it has been that way for a while now, but

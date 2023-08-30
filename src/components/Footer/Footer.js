@@ -17,10 +17,10 @@ export default function Footer() {
           </p>
           <div className="flex lg:flex-nowrap flex-wrap justify-center  lg:mx-0 mx-5 gap-2">
             <div className="md:w-[511px] md:h-[270px] w-[335px] h-[216px] bg-[#171B29] rounded-[25px] relative md:mt-[50px] ">
-              <span className="text-xs font-bold ms-7 mt-12 md:mt-6 leading-6 opacity-30 md:ml-[30px] md:pt-[30px] block">
+              <span className="text-xs font-bold ms-7 mt-12 md:mt-6 leading-6 opacity-30 md:ml-[30px] md:pt-[30px] 2xl:pt-0 2xl:mt-[30px] block">
                 01
               </span>
-              <div className="flex flex-col justify-center items-center text-lg font-bold leading-6 mt-5 md:mt-[45px] xs:mt-5 xs:text-base">
+              <div className="flex flex-col justify-center items-center text-lg font-bold leading-6 mt-5 md:mt-[45px] xs:mt-5 2xl:mt-[45px] xs:text-base">
                 <p className="2xl:w-[52%] ms-7 mr-8 md:ms-28 md:mr-24 2xl:mr-0 2xl:ms-0">
                   First Connect your Metamask or TrustWallet to the "Connect
                   Wallet" on the Homepage.
@@ -48,10 +48,10 @@ export default function Footer() {
               </div>
             </div>
             <div className="md:w-[511px] md:h-[270px] w-[335px] h-[216px] bg-[#171B29] rounded-[25px] relative lg:ml-5 lg:mt-[110px] sm:mt-5 xs:mt-5">
-              <span className="text-xs font-bold ms-7 mt-12 md:mt-6 leading-6 opacity-30 md:ml-[30px] md:pt-[30px] block">
+              <span className="text-xs font-bold ms-7 mt-12 md:mt-6 leading-6 opacity-30 md:ml-[30px] md:pt-[30px] 2xl:pt-0 2xl:mt-[30px] block">
                 02
               </span>
-              <div className="flex flex-col justify-center items-center text-lg font-bold leading-6 mt-5 md:mt-[45px] xs:mt-5 xs:text-base">
+              <div className="flex flex-col justify-center items-center text-lg font-bold leading-6 mt-5 md:mt-[45px] xs:mt-5 2xl:mt-[45px] xs:text-base">
                 <p className="2xl:w-[52%] ms-7 mr-8 md:ms-28 md:mr-24 2xl:mr-0 2xl:ms-0">
                   Then send a minimum of 0.1 BNB or a maximum of 10 BNB to the
                   Presale wallet.
@@ -79,10 +79,10 @@ export default function Footer() {
               </div>
             </div>
             <div className="md:w-[511px] md:h-[270px] w-[335px] h-[216px] bg-[#171B29] rounded-[25px] relative lg:ml-5 lg:mt-[50px] sm:mt-5 xs:mt-5">
-              <span className="text-xs font-bold ms-7 mt-12 md:mt-6 leading-6 opacity-30 md:ml-[30px] md:pt-[30px] block">
+              <span className="text-xs font-bold ms-7 mt-12 md:mt-6 leading-6 opacity-30 md:ml-[30px] md:pt-[30px] 2xl:pt-0 2xl:mt-[30px] block">
                 03
               </span>
-              <div className="flex flex-col justify-center items-center text-lg font-bold leading-6 mt-5 md:mt-[45px] xs:mt-5 xs:text-base">
+              <div className="flex flex-col justify-center items-center text-lg font-bold leading-6 mt-5 md:mt-[45px] xs:mt-5 2xl:mt-[45px] xs:text-base">
                 <p className="2xl:w-[52%] ms-7 mr-8 md:ms-28 md:mr-24 2xl:mr-0 2xl:ms-0">
                   Then after you will received your $WNTR to your address within
                   24hours.

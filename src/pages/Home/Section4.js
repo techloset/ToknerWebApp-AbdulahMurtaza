@@ -15,6 +15,7 @@ function PreSale() {
               className="bg-image py-3"
               style={{
                 background: `url(https://res.cloudinary.com/dtqdflngh/image/upload/v1693157622/one_esczbm.svg) center no-repeat`,
+                backgroundSize: "contain",
               }}
             >
               <div className="flex justify-center">
@@ -80,17 +81,19 @@ function PreSale() {
                   </defs>
                 </svg>
               </div>
-              <h5 className="card-title mt-10 text-3xl ">Phase One</h5>
-              <div className=" leading-5 opacity-60">
+              <h5 className="card-title mt-10 text-3xl 2xl:mt-16">Phase One</h5>
+              <div className=" leading-5 opacity-60 2xl:mt-2">
                 0/04/2021 - 16/04/2021
               </div>
             </div>
-            <div className=" text-xl  leading-5 mt-16">1 BNB = 100000 WNTR</div>
-            <div className="text-base font-normal leading-5">
+            <div className=" text-xl  leading-5 mt-16 2xl:mt-[70px]">
+              1 BNB = 100000 WNTR
+            </div>
+            <div className="text-base font-normal leading-5 2xl:mt-5">
               Soft cap:{" "}
               <span className=" leading-5 font-bold opacity-100">5000 BNB</span>
             </div>
-            <div className="text-base font-normal leading-5">
+            <div className="text-base font-normal leading-5 2xl:mt-[10px]">
               Hard cap:{" "}
               <span className=" leading-5 font-bold opacity-100">
                 10000 BNB
@@ -104,6 +107,7 @@ function PreSale() {
               className="bg-image py-3"
               style={{
                 background: `url(https://res.cloudinary.com/dtqdflngh/image/upload/v1693157624/two_lj4hps.svg) center no-repeat`,
+                backgroundSize: "contain",
               }}
             >
               <div className="flex justify-center">
@@ -170,16 +174,18 @@ function PreSale() {
                 </svg>
               </div>
               <h5 className="card-title mt-10 text-3xl ">Phase Two</h5>
-              <div className=" leading-5 opacity-60">
+              <div className=" leading-5 opacity-60 2xl:mt-2">
                 0/04/2021 - 16/04/2021
               </div>
             </div>
-            <div className=" text-xl  leading-5 mt-16">1 BNB = 100000 WNTR</div>
-            <div className="text-base font-normal leading-5">
+            <div className=" text-xl  leading-5 mt-16 2xl:mt-[70px]">
+              1 BNB = 100000 WNTR
+            </div>
+            <div className="text-base font-normal leading-5 2xl:mt-5">
               Soft cap:{" "}
               <span className=" leading-5 font-bold opacity-100">5000 BNB</span>
             </div>
-            <div className="text-base font-normal leading-5">
+            <div className="text-base font-normal leading-5 2xl:mt-[10px]">
               Hard cap:{" "}
               <span className=" leading-5 font-bold opacity-100">
                 10000 BNB
@@ -193,6 +199,7 @@ function PreSale() {
               className="bg-image py-3"
               style={{
                 background: `url(https://res.cloudinary.com/dtqdflngh/image/upload/v1693157623/three_snrq6c.svg) center no-repeat`,
+                backgroundSize: "contain",
               }}
             >
               <div className="flex justify-center">
@@ -259,16 +266,18 @@ function PreSale() {
                 </svg>
               </div>
               <h5 className="card-title mt-10 text-3xl ">Phase Three</h5>
-              <div className=" leading-5 opacity-60">
+              <div className=" leading-5 opacity-60 2xl:mt-2">
                 0/04/2021 - 16/04/2021
               </div>
             </div>
-            <div className=" text-xl  leading-5 mt-16">1 BNB = 100000 WNTR</div>
-            <div className="text-base font-normal leading-5">
+            <div className=" text-xl  leading-5 mt-16 2xl:mt-[70px]">
+              1 BNB = 100000 WNTR
+            </div>
+            <div className="text-base font-normal leading-5 2xl:mt-5">
               Soft cap:{" "}
               <span className=" leading-5 font-bold opacity-100">5000 BNB</span>
             </div>
-            <div className="text-base font-normal leading-5">
+            <div className="text-base font-normal leading-5 2xl:mt-[10px]">
               Hard cap:{" "}
               <span className=" leading-5 font-bold opacity-100">
                 10000 BNB
