@@ -118,7 +118,7 @@ const Section3 = () => {
           <div className="md:w-[147px] md:h-[48px] md:text-center leading-[47px] text-lg font-bold decoration-dotted underline md:no-underline text-[#22A75D] md:text-white md:border border-green-600 md:rounded-[54px] ms:learnMoreBtn mt-5">
             <a
               href="javascript:void(0)"
-              className="md-hidden"
+              className="md:hidden"
               onClick={toggleReadMoreLess}
             >
               {isShowMore ? "Hide" : "Read More"}
