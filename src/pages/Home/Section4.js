@@ -5,7 +5,7 @@ function PreSale() {
   return (
     <>
       <div className="preSaleBgImage h-[1320px] md:block hidden font-['Century_Gothic']">
-        <h2 className="text-5xl text-center font-bold text-white mb-6 pt-[320px]">
+        <h2 className="text-5xl text-center font-bold text-white mb-6 pt-[320px] md:pt-[450px] 2xl:pt-[430px]">
           Presale Details
         </h2>
         <div className="grid grid-cols-3 gap-2 xl:gap-2 mx-12 2xl:mx-40">

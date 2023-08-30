@@ -33,7 +33,7 @@ export default function Header() {
             </div>
           </div>
           <div
-            className="md:hidden h-[400px]"
+            className="md:hidden h-[400px] w-screen"
             style={{
               background: `url(https://res.cloudinary.com/dtqdflngh/image/upload/v1693157621/mainImg_nvtkaa.png)`,
               backgroundSize: "cover",
