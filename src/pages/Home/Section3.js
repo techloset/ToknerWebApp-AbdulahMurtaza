@@ -17,7 +17,7 @@ const Section3 = () => {
             alt="Woman Holding Phone "
           />
         </div>
-        <div className="mx-auto text-start px-[21px] mt-3 2xl:mt-6 md:px-24 2xl:px-36 text-white text-sm 2xl:text-base">
+        <div className="mx-auto text-start px-5 mt-3 2xl:mt-6 md:px-24 2xl:px-36 text-white text-sm 2xl:text-base">
           <div className="py-4 text-4xl 2xl:text-5xl font-bold leading-[54px] md:flex items-baseline">
             <img
               src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157625/wLogo_lpegc8.png"
@@ -27,7 +27,7 @@ const Section3 = () => {
             <p className="hidden md:block">Tokner is coming</p>
             <p className=" md:hidden">Weetnar is coming</p>
           </div>
-          <div className="font-[700] leading-[24px] opacity-60 2xl:pr-7">
+          <div className="font-[700] leading-[24px] opacity-60 pr-[2px] 2xl:pr-7">
             Cryptocurrency adoption is at less than 1% of the global world
             population with some countries and entities actively fighting
             against its mass adoption and the smartest developers and nerds
@@ -85,8 +85,8 @@ const Section3 = () => {
             </>
           ) : (
             <>
-              {" "}
-              <div className="my-3 font-[700] text-[#9FA1A6] leading-[24px]  lg:hidden  2xl:pr-5">
+              {/* mobile */}{" "}
+              <div className="my-3 font-[700] text-[#9FA1A6] leading-[24px] lg:hidden  2xl:pr-5">
                 A new digital economy is coming. People would be just as
                 powerful as countries and creators would be paid beyond the
                 peanuts that conventional social media platforms can offer.
@@ -94,11 +94,11 @@ const Section3 = () => {
               <div className="my-2 font-[400] text-[#9FA1A6] leading-[24px]  lg:hidden">
                 There would benew markets and advertisers with little to offer
                 would not find home there. Like Kanye said,
-                <div className="flex flex-row flex-wrap gap-3 my-4 items-start  2xl:pr-12">
-                  <div className="text-2xl font-bold leading-[24px] text-[#ffd100] mt-1 contents lg:hidden">
+                <div className="flex flex-row gap-3 my-4 items-start  2xl:pr-12">
+                  <div className="text-2xl font-bold leading-[24px] text-[#ffd100] mt-1  lg:hidden">
                     “{" "}
                   </div>
-                  <div className="font-bold leading-[24px] italic text-[#9fa1a6] contents lg:hidden">
+                  <div className="font-bold leading-[24px] italic text-[#9fa1a6]  lg:hidden pr-10">
                     Personalities would become the new currency, and services
                     would be built on top of them".
                   </div>

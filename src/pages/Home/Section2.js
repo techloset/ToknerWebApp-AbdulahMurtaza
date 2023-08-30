@@ -96,16 +96,14 @@ export default function Section2() {
           </div>
           <div className="flex flex-col ml-6 ">
             <div className="text-xs font-bold leading-[34px] text-[#22a75d]">
-              01{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
+              01
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
                 Team set-up
               </span>
             </div>
             <div className="text-xs font-bold leading-[34px] text-[#22a75d]">
-              02{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
+              02
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
                 Launch of informational website
               </span>
             </div>
@@ -189,38 +187,33 @@ export default function Section2() {
           </div>
           <div className="flex flex-col ml-6 ">
             <div className="text-xs font-bold leading-[34px] text-[#2278D4]">
-              01{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
+              01
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
                 Presale and exchange listings
               </span>
             </div>
             <div className="text-xs font-bold leading-[34px] text-[#2278D4]">
-              02{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
+              02
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
                 Blockchain development and launch
               </span>
             </div>
             <div className="text-xs font-bold leading-[34px] text-[#2278D4]">
-              03{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
+              03
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
                 Launch of our MVP
               </span>
             </div>
             <div className="text-xs font-bold leading-[34px] text-[#2278D4]">
-              04{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
+              04
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
                 Influencer agency partnerships
               </span>
             </div>
             <div className="text-xs font-bold leading-[34px] text-[#2278D4]">
-              05{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
-                Marketing and promotion{" "}
+              05
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
+                Marketing and promotion
               </span>
             </div>
           </div>
@@ -303,38 +296,22 @@ export default function Section2() {
           </div>
           <div className="flex flex-col ml-6 ">
             <div className="text-xs font-bold leading-[34px] text-[#FFD100]">
-              01{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
-                Presale and exchange listings
+              01
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
+                Celebrity, Creator and Influencer partnerships
               </span>
             </div>
             <div className="text-xs font-bold leading-[34px] text-[#FFD100]">
-              02{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
-                Blockchain development and launch
+              02
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
+                Expansion of creator communities <br className="md:hidden" /> on
+                our platform
               </span>
             </div>
             <div className="text-xs font-bold leading-[34px] text-[#FFD100]">
-              03{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
-                Launch of our MVP
-              </span>
-            </div>
-            <div className="text-xs font-bold leading-[34px] text-[#FFD100]">
-              04{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
-                Influencer agency partnerships
-              </span>
-            </div>
-            <div className="text-xs font-bold leading-[34px] text-[#FFD100]">
-              05{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
-                Marketing and promotion{" "}
+              03
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
+                More Marketing and promotion
               </span>
             </div>
           </div>
@@ -417,38 +394,27 @@ export default function Section2() {
           </div>
           <div className="flex flex-col ml-6 ">
             <div className="text-xs font-bold leading-[34px] text-[#E20613]">
-              01{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
-                Presale and exchange listings
+              01
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
+                Mainstream partnerships
               </span>
             </div>
             <div className="text-xs font-bold leading-[34px] text-[#E20613]">
-              02{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
-                Blockchain development and launch
+              02
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
+                500 active creator communities
               </span>
             </div>
             <div className="text-xs font-bold leading-[34px] text-[#E20613]">
-              03{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
-                Launch of our MVP
+              03
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
+                2Million active community members
               </span>
             </div>
             <div className="text-xs font-bold leading-[34px] text-[#E20613]">
-              04{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
-                Influencer agency partnerships
-              </span>
-            </div>
-            <div className="text-xs font-bold leading-[34px] text-[#E20613]">
-              05{" "}
-              <span className="opacity-60 freeText leading-[34px] text-white mr-3 w-1/5 xl:text-base ms-[21px]">
-                {" "}
-                Marketing and promotion{" "}
+              04
+              <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
+                More Marketing and promotion
               </span>
             </div>
           </div>
