@@ -7,12 +7,12 @@ const Section1 = () => {
         <div className="items-start">
           <img
             src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157628/section1bg_lc7ffu.png"
-            className="-scale-x-100 md:scale-100 w-full"
+            className="-scale-x-100 md:scale-100 w-full h-full"
             alt="Colorful Image"
           />
         </div>
         <div className="flex flex-col h-[700px] md:h-auto font-['Century_Gothic'] md:justify-center items-center pt-20 relative overflow-x-hidden bg-white rounded-tr-[200px] md:rounded-tr-none md:rounded-tl-[160px] lg:rounded-tl-[220px] xl:rounded-tl-[260px] 2xl:rounded-tl-[400px]">
-          <div className="text-gray-900 ms-5 md:ms-16 md:me-[32px] xl:ms-28 xl:me-24 2xl:ms-36 2xl:me-[215px]">
+          <div className="text-gray-900 ms-5 md:ms-16 md:me-[32px] xl:ms-28 xl:me-24 2xl:ms-36 2xl:me-[215px] md:py-10 2xl:py-0">
             <div className="text-4xl not-italic md:text-4xl 2xl:text-5xl font-bold leading-10">
               What makes <br className="md:hidden" /> us different?
             </div>
