@@ -9,7 +9,7 @@ const Section3 = () => {
 
   return (
     <div className="pt-16 font-['Century_Gothic']">
-      <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
+      <div className="grid grid-cols-1 lg:grid-cols-12 md:px-12 2xl:px-44 overflow-hidden">
         <div className="flex md:hidden">
           <img
             src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157627/womanHoldingPhone_rt3qud.png"
@@ -17,7 +17,7 @@ const Section3 = () => {
             alt="Woman Holding Phone "
           />
         </div>
-        <div className="mx-auto text-start px-5 mt-3 2xl:mt-6 md:px-24 2xl:px-36 text-white text-sm 2xl:text-base">
+        <div className="mx-auto text-start px-5 sm:px-0 mt-3 2xl:mt-6  text-white text-sm 2xl:text-base md:4 2xl:pe-1 col-span-5">
           <div className="py-4 text-4xl 2xl:text-5xl font-bold leading-[54px] md:flex items-baseline">
             <img
               src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157625/wLogo_lpegc8.png"
@@ -27,13 +27,13 @@ const Section3 = () => {
             <p className="hidden md:block">Tokner is coming</p>
             <p className=" md:hidden">Weetnar is coming</p>
           </div>
-          <div className="font-[700] leading-[24px] opacity-60 pr-[2px] 2xl:pr-7">
+          <div className="font-[700] leading-[24px] opacity-60 pe-[1px] sm:pe-0 2xl:pe-10">
             Cryptocurrency adoption is at less than 1% of the global world
             population with some countries and entities actively fighting
             against its mass adoption and the smartest developers and nerds
-            holding the fort
+            holding the fort.
           </div>
-          <div className="my-2 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2xl 2xl:pr-11">
+          <div className="my-2 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2xl 2xl:pe-5">
             Bitcoin was the first, and it has since grown to thousands of tokens
             launched all aiming to fix one problem or the other with some quite
             simply FOMOing the moment. Our goal is to bring mass adoption to the
@@ -44,17 +44,17 @@ const Section3 = () => {
             currency projects.
           </div>
 
-          <div className="my-3 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2xl 2xl:pr-12">
-            We are trying to do to this space what investment apps did for the
-            "nonexistent retail investors". We are gamifying digital currency,
-            bringing in popular faces instead of hard-to-understand projects to
-            make it the norm and inadvertently being the "gateway drug" for a
-            lot of people to finally give this space a real look.
-          </div>
           {!isShowMore ? (
             <>
-              {" "}
-              <div className="my-3 font-[700] text-[#9FA1A6] leading-[24px] hidden lg:block  2xl:pr-5">
+              <div className="my-3 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2x hidden lg:block  2xl:pe-5">
+                We are trying to do to this space what investment apps did for
+                the "nonexistent retail investors". We are gamifying digital
+                currency, bringing in popular faces instead of
+                hard-to-understand projects to make it the norm and
+                inadvertently being the "gateway drug" for a lot of people to
+                finally give this space a real look.
+              </div>{" "}
+              <div className="my-3 font-[700] text-[#9FA1A6] leading-[24px] hidden lg:block ">
                 A new digital economy is coming. People would be just as
                 powerful as countries and creators would be paid beyond the
                 peanuts that conventional social media platforms can offer.
@@ -62,7 +62,7 @@ const Section3 = () => {
               <div className="my-2 font-[400] text-[#9FA1A6] leading-[24px] hidden lg:block">
                 There would benew markets and advertisers with little to offer
                 would not find home there. Like Kanye said,
-                <div className="flex flex-row flex-wrap gap-3 my-4 items-start  2xl:pr-14">
+                <div className="flex flex-row flex-wrap gap-3 my-4 items-start  2xl:pe-6">
                   <div className="text-2xl font-bold leading-[24px] text-[#ffd100] mt-1 hidden lg:contents">
                     “{" "}
                   </div>
@@ -72,7 +72,7 @@ const Section3 = () => {
                   </div>
                 </div>
               </div>
-              <div className="text-white opacity-60 text-base hidden lg:block  2xl:pr-9">
+              <div className="text-white opacity-60 text-base hidden lg:block ">
                 Well, Kanye didn't exactly say that, but it sounds like
                 something we hope he <br /> would say.
                 <br />
@@ -85,7 +85,15 @@ const Section3 = () => {
             </>
           ) : (
             <>
-              {/* mobile */}{" "}
+              {/* mobile */}
+              <div className="my-3 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2x lg:hidden 2xl:pe-5">
+                We are trying to do to this space what investment apps did for
+                the "nonexistent retail investors". We are gamifying digital
+                currency, bringing in popular faces instead of
+                hard-to-understand projects to make it the norm and
+                inadvertently being the "gateway drug" for a lot of people to
+                finally give this space a real look.
+              </div>{" "}
               <div className="my-3 font-[700] text-[#9FA1A6] leading-[24px] lg:hidden  2xl:pr-5">
                 A new digital economy is coming. People would be just as
                 powerful as countries and creators would be paid beyond the
@@ -129,7 +137,7 @@ const Section3 = () => {
             </a>
           </div>
         </div>
-        <div className="hidden lg:block image me-8 2xl:me-44">
+        <div className="hidden lg:block col-span-7 image">
           <img
             src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157627/womanHoldingPhone_rt3qud.png"
             className="2xl:w-[891px] 2xl:h-[928px]"

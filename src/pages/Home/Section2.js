@@ -3,7 +3,7 @@ import React from "react";
 export default function Section2() {
   return (
     <section>
-      <div className="grid md:grid-cols-4 md:px-12 2xl:px-[188px] gap-0 lg:gap-6 font-['Century_Gothic']  md:justify-center bg-[#0F1320] md:rounded-tr-[200px] lg:rounded-tr-[290px] pt-[70px] mb-2 relative">
+      <div className="grid md:grid-cols-4 md:px-12 2xl:px-[173px] gap-10 lg:gap-6 font-['Century_Gothic']  md:justify-center bg-[#0F1320] md:rounded-tr-[200px] lg:rounded-tr-[290px] pt-[70px] mb-2 relative">
         <svg
           class="absolute top-0 right-0 z-10 hidden md:block"
           xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@ export default function Section2() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col ml-6 ">
+          <div className="flex flex-col ml-6 md:mt-[40px]">
             <div className="text-xs font-bold leading-[34px] text-[#22a75d]">
               01
               <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
@@ -185,7 +185,7 @@ export default function Section2() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col ml-6 ">
+          <div className="flex flex-col ml-6 md:mt-[40px]">
             <div className="text-xs font-bold leading-[34px] text-[#2278D4]">
               01
               <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
@@ -294,7 +294,7 @@ export default function Section2() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col ml-6 ">
+          <div className="flex flex-col ml-6 md:mt-[40px]">
             <div className="text-xs font-bold leading-[34px] text-[#FFD100]">
               01
               <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">
@@ -392,7 +392,7 @@ export default function Section2() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col ml-6 ">
+          <div className="flex flex-col ml-6 md:mt-[40px]">
             <div className="text-xs font-bold leading-[34px] text-[#E20613]">
               01
               <span className="opacity-60 freeText text-lg font-normal md:leading-[34px] text-white md:mr-3 xl:text-base ms-2">

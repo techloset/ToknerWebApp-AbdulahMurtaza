@@ -19,6 +19,11 @@ body {
   padding: 0;
 }
 
+ .coming {
+   background-color: #171B29;
+   border-radius: 25px;
+   content: "";
+ }
 
 .preSaleBgImage{
   background-image: url(/static/img/cardBg.png);
