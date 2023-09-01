@@ -17,7 +17,7 @@ const Section3 = () => {
             alt="Woman Holding Phone "
           />
         </div>
-        <div className="mx-auto text-start px-5 sm:px-0 mt-3 2xl:mt-6  text-white text-sm 2xl:text-base md:4 2xl:pe-1 col-span-5">
+        <div className="mx-auto text-start px-5  sm:px-0 2xl:ms-6 mt-3 2xl:mt-6  text-white text-sm 2xl:text-base md:4 col-span-5">
           <div className="py-4 text-4xl 2xl:text-5xl font-bold leading-[54px] md:flex items-baseline">
             <img
               src="https://res.cloudinary.com/dtqdflngh/image/upload/v1693157625/wLogo_lpegc8.png"
@@ -27,13 +27,13 @@ const Section3 = () => {
             <p className="hidden md:block">Tokner is coming</p>
             <p className=" md:hidden">Weetnar is coming</p>
           </div>
-          <div className="font-[700] leading-[24px] opacity-60 pe-[1px] sm:pe-0 2xl:pe-10">
+          <div className="font-[700] leading-[24px] opacity-60 pe-[1px] sm:pe-0 ">
             Cryptocurrency adoption is at less than 1% of the global world
             population with some countries and entities actively fighting
             against its mass adoption and the smartest developers and nerds
             holding the fort.
           </div>
-          <div className="my-2 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2xl 2xl:pe-5">
+          <div className="my-2 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2xl">
             Bitcoin was the first, and it has since grown to thousands of tokens
             launched all aiming to fix one problem or the other with some quite
             simply FOMOing the moment. Our goal is to bring mass adoption to the
@@ -46,7 +46,7 @@ const Section3 = () => {
 
           {!isShowMore ? (
             <>
-              <div className="my-3 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2x hidden lg:block  2xl:pe-5">
+              <div className="my-3 opacity-60 text-[#DDE2FF] font-[400] leading-6 drop-shadow-2x hidden lg:block">
                 We are trying to do to this space what investment apps did for
                 the "nonexistent retail investors". We are gamifying digital
                 currency, bringing in popular faces instead of
@@ -60,7 +60,7 @@ const Section3 = () => {
                 peanuts that conventional social media platforms can offer.
               </div>
               <div className="my-2 font-[400] text-[#9FA1A6] leading-[24px] hidden lg:block">
-                There would benew markets and advertisers with little to offer
+                There would be markets and advertisers with little to offer
                 would not find home there. Like Kanye said,
                 <div className="flex flex-row flex-wrap gap-3 my-4 items-start  2xl:pe-6">
                   <div className="text-2xl font-bold leading-[24px] text-[#ffd100] mt-1 hidden lg:contents">
@@ -78,7 +78,7 @@ const Section3 = () => {
                 <br />
                 <br />
                 Currency is digital, it has been that way for a while now, but
-                this time there would be no dead presidents on the money, there
+                this time there would be no ded presidents on the money, there
                 would people like you on the money, and you would own it because
                 it would make the most sense in the world.
               </div>
