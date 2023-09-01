@@ -10,11 +10,9 @@ export default function Footer() {
         backgroundSize: "cover",
       }}
     >
-      <div className=" md:mt-14 text-white  font-['Century_Gothic']">
+      <div className=" text-white  font-['Century_Gothic']">
         <div className="bg-cover h-auto w-auto md:mx-8">
-          <p className="text-4xl font-semibold text-center mb-5 md:my-10">
-            How to buy
-          </p>
+          <p className="text-4xl font-semibold text-center mb-5">How to buy</p>
           <div className="flex lg:flex-nowrap flex-wrap justify-center  lg:mx-0 mx-5 gap-2">
             <div className="md:w-[511px] md:h-[270px] w-[335px] h-[216px] bg-[#171B29] rounded-[25px] relative md:mt-[50px] ">
               <span className="text-xs font-bold ms-7 mt-12 md:mt-6 leading-6 opacity-30 md:ml-[30px] md:pt-[30px] 2xl:pt-0 2xl:mt-[30px] block">
